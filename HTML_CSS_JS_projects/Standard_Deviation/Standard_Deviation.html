@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="Standard_Deviation.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <title>標準差計算</title>
+   </head>
+   <body>
+      <div style="display: flex; justify-content: center;">
+         <form>
+            <label for="element1">數字 1：</label><br>
+            <input type="text" id="element1" name="element1" oninput="check()"><br>
+            <label for="element2">數字 2：</label><br>
+            <input type="text" id="element2" name="element2" oninput="check()"><br>
+            <label for="element3">數字 3：</label><br>
+            <input type="text" id="element3" name="element3" oninput="check()"><br>
+            <input type="button" value="合體" onclick="arr=combineArray()"><br>
+            <label for="output">结果：</label><br>
+            <textarea id="output" rows="4" cols="50" readonly></textarea><br><br>
+            <input type="button" value="將陣列做運算" onclick="Average(arr),Variation(arr),Standard_Deviation(arr)"><br>
+            平均(Average):<br>
+            <textarea id="average" rows="4" cols="50" readonly></textarea><br>
+            變異數(Variation):<br>
+            <textarea id="variation" rows="4" cols="50" readonly></textarea><br>xc
+            標準差(Standard Deviation):<br>
+            <textarea id="sd" rows="4" cols="50" readonly></textarea>
+         </form>
+      </div>
+   </body>
+</html>
