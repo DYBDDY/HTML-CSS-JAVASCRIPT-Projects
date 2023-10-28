@@ -1,0 +1,55 @@
+body {
+    background-color:bisque;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.buttons p {
+    font-size: 18px;
+}
+
+button {
+    background-color:aquamarine;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+button img {
+    width: 50px;
+    height: 50px;
+}
+
+p#result {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p#scores {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.player-score, .computer-score {
+    font-weight: bold;
+}
